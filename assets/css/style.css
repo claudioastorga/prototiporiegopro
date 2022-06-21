@@ -116,7 +116,7 @@ background-color:#CDDBFF;
 #indicadores {
     background-color: #0A84FF;
     color: white;
-    padding: 30px;
+    padding: 12px;
 }
 #indicadores .datos { 
 text-align: center;
@@ -198,7 +198,7 @@ align-items: center;
 }
 
 #clientes .cliente123 .cliente2{
-    background-image: url(/assets/img/persona2.JPG);
+    background-image: url(../img/persona2.JPG);
     background-size: cover;
     width: 300px;
     height: 300px;
@@ -208,7 +208,7 @@ align-items: center;
     margin-bottom: 20px;
 }
 #clientes  .cliente123   .cliente3{
-    background-image: url(/assets/img/persona3.jpg);
+    background-image: url(../img/persona3.jpg);
     background-size: cover;
     width: 300px;
     height: 300px;
@@ -316,7 +316,7 @@ background-color: #63C789;
 
 #metodologia .figura1{
   
-background-image: url(/assets/img/noun-method-4518785.svg);
+background-image: url(../img/noun-method-4518785.svg);
 background-size: auto;
 background-position: center;
 background-repeat: no-repeat;
