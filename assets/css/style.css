@@ -69,7 +69,7 @@ font-weight: bold;
 
 
 #servicios .cards .card1 {
-background-image: url(/assets/img/riego_1.jpg);
+background-image: url(../img/riego_1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 width: auto;
@@ -77,7 +77,7 @@ height: 300px;
 
 }
 #servicios .cards .card2 {
-    background-image: url(/assets/img//riego2.jpg);
+    background-image: url(../img/riego2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -85,7 +85,7 @@ height: 300px;
     }
 
 #servicios .cards .card3 {
-    background-image: url(/assets/img//riego3.jpg);
+    background-image: url(../img/riego3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
@@ -334,11 +334,12 @@ background-repeat: no-repeat;
     background-color:#CDDBFF;
     align-items: flex-end;
 justify-content: center;
+margin-bottom: 60px;
     
 }
 
 #contacto .fotoperfil {
-    background-image: url(/assets/img/persona3.jpg);
+    background-image: url(../img/persona3.jpg);
     background-size: cover;
     width: auto;
     height: 300px;
