@@ -1,0 +1,375 @@
+nav{
+    background-color:#555658;
+    font-family: 'lato';
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav .secciones{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+nav .secciones a{
+    text-decoration: none;
+    color: white;
+}
+
+nav button{
+    background-color: #0A84FF;
+}
+body{
+    font-family: 'lato';
+}
+
+#hero-section{
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#hero-section img{
+    border-radius: 15px;
+
+}
+
+#hero-section aside{
+
+padding: 15px;
+padding-right: 0;
+text-align: justify;
+}
+
+#hero-section aside h1{
+font-weight: bold;
+font-style: italic;
+color: #0A84FF;
+}
+
+
+#servicios{
+padding: 30px;
+}
+
+#servicios h1{
+font-weight: bold;
+}
+
+
+#servicios .cards{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 30px;
+}
+
+
+
+
+
+#servicios .cards .card1 {
+background-image: url(/assets/img/riego_1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width: auto;
+height: 300px;
+
+}
+#servicios .cards .card2 {
+    background-image: url(/assets/img//riego2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 300px;
+    }
+
+#servicios .cards .card3 {
+    background-image: url(/assets/img//riego3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 300px;
+    }
+        
+#servicios .cards .caja{
+padding: 10px;
+background-color:#CDDBFF;
+}
+
+#servicios .cards  div footer{
+    display: flex;
+    justify-content: flex-end;    
+}
+#servicios .cards .caja  footer button{
+    background-color:#62AE44;
+    color: white;
+    border-radius: 8px;
+
+}
+
+#servicios .servicio2 {
+    border-radius: 15px;
+}
+
+
+#indicadores {
+    background-color: #0A84FF;
+    color: white;
+    padding: 30px;
+}
+#indicadores .datos { 
+text-align: center;
+}
+#indicadores .dato1 { 
+padding: 10px;  
+margin: auto; 
+display: block;
+align-items: center;
+
+ }
+
+#novedad{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+#novedad .foto {
+    border-radius: 15px;
+
+}
+
+    
+#novedad aside{
+    padding: 15px;
+    padding-right: 0;
+    text-align: justify;
+ }
+    
+#novedad aside h1{
+    font-weight: bold;
+    font-style: italic;
+    color: #0A84FF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+#clientes {
+    padding: 30px;
+
+}
+
+#clientes h2{
+    margin-bottom: 15px;
+}
+
+#clientes .cliente123{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 30px;
+    }
+    
+
+
+
+
+
+#clientes .cliente123 .cliente1{
+    background-image: url(../img/persona1.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#clientes .cliente123 .cliente2{
+    background-image: url(/assets/img/persona2.JPG);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+#clientes  .cliente123   .cliente3{
+    background-image: url(/assets/img/persona3.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#clientes .detalle{
+    background-color: #CDDBFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#clientes .detalle footer{
+    display: flex;
+    justify-content: flex-end;    
+
+}
+
+
+
+
+#metodo{
+    background-color: #63C789;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+    text-align-last: justify;
+}
+#figura{
+    padding: 30px;
+}
+
+
+#datoss{
+    background-color: #62AE44;
+    padding: 30px;
+    
+
+}
+
+#datoss .info1 {
+    color: white;
+    font-style: bold;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr  )  ;
+    gap: 20px;
+}
+
+
+#infocifras{
+    padding: 50px;
+   
+}
+#infocifras .cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr  )  ;
+    gap: 30px;
+}
+
+
+#infocifras .card {
+background-color: #63C789;
+    padding: 20px;
+    color:white;
+    font-style: bold;
+    gap: 30px;
+    border-radius: 20px;
+
+    }
+
+
+
+#metodologia {
+    background-color:#63C789;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 2fr 3fr   ;
+    gap: 20px;
+}
+
+#metodologia .texto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+#metodologia .texto h1{
+    font-style: bold;
+    font-style: italic
+}
+
+#metodologia .texto {
+    display: flex;
+    justify-content: space-between;
+}
+
+#metodologia .figura1{
+  
+background-image: url(/assets/img/noun-method-4518785.svg);
+background-size: auto;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+
+
+
+#contacto {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color:#CDDBFF;
+    align-items: flex-end;
+justify-content: center;
+    
+}
+
+#contacto .fotoperfil {
+    background-image: url(/assets/img/persona3.jpg);
+    background-size: cover;
+    width: auto;
+    height: 300px;
+
+}
+
+#contacto .datos{
+    text-align: left;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+#contacto .datos h1{
+    font-style: bold;
+    font-style: italic;
+    color: #0A84FF;
+    text-align: center;
+    
+}
+#contacto  .direccion{
+    padding: 20px;
+    color: #0A84FF;
+    text-align: left;
+}
+
+
+.final{
+    background-color: #555658;
+    font-family: 'lato';
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
