@@ -6,6 +6,13 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+nav .logo{
+    width: 20%;
+    justify-content: left;
+}
+
+
 nav .secciones{
     display: flex;
     width: 40%;
@@ -17,10 +24,11 @@ nav .secciones a{
 }
 
 nav button{
-    background-color: #0A84FF;
+    background-color: #1E88E5;
 }
 body{
     font-family: 'lato';
+    background-color: whitesmoke;
 }
 
 #hero-section{
@@ -31,7 +39,7 @@ justify-content: center;
 }
 
 #hero-section img{
-    border-radius: 15px;
+    border-radius: 20px;
 
 }
 
@@ -45,96 +53,160 @@ text-align: justify;
 #hero-section aside h1{
 font-weight: bold;
 font-style: italic;
-color: #0A84FF;
+color: #1E88E5;
+}
+
+/*nueva card servicios*/
+
+
+
+#servicios h2{
+    margin-bottom: 30px;
+    margin-left: 50px;
+
+    font-weight: bold;
+    font-style: italic;
+    color: #555658;
+
 }
 
 
-#servicios{
-padding: 30px;
+
+
+#servicios .servicio123{
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    max-width: 1200px;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    
+
+#servicios .servicio123 .servicio1{
+    background-image: url(../img/riego_1.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+
+    flex-grow: 1;
+
 }
 
-#servicios h1{
-font-weight: bold;
-}
-
-
-#servicios .cards{
-    display: grid;
-    grid-template-columns:repeat(3,1fr) ;
-    gap: 30px;
-}
-
-
-
-
-
-#servicios .cards .card1 {
-background-image: url(../img/riego_1.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-width: auto;
-height: 300px;
-
-}
-#servicios .cards .card2 {
+#servicios .servicio123 .servicio2{
     background-image: url(../img/riego2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
+    width: 350px;
     height: 300px;
-    }
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
 
-#servicios .cards .card3 {
+
+    flex-basis: 300px;
+    max-width: 450px;
+    flex-grow: 1;
+}
+#servicios  .servicio123   .servicio3{
     background-image: url(../img/riego3.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
+    width: 350px;
     height: 300px;
-    }
-        
-#servicios .cards .caja{
-padding: 10px;
-background-color:#CDDBFF;
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+    flex-basis: 300px;
+    max-width: 450px;
+    flex-grow: 1;
+
 }
 
-#servicios .cards  div footer{
+#servicios .detalle{
+    background-color: #CDDBFF;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+#servicios .detalle footer{
     display: flex;
     justify-content: flex-end;    
+
 }
-#servicios .cards .caja  footer button{
+
+
+#servicios .detalle  footer button{
     background-color:#62AE44;
     color: white;
     border-radius: 8px;
 
 }
 
-#servicios .servicio2 {
-    border-radius: 15px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #indicadores {
-    background-color: #0A84FF;
+    background-color: #1E88E5
+;
     color: white;
-    padding: 12px;
+    padding: 15px;
     margin: 30px 0px 30px 0px;
 }
 #indicadores .datos { 
 text-align: center;
+padding: 15px;
 }
+
 #indicadores .dato1 { 
-padding: 10px;  
+padding: 15px;  
 margin: auto; 
 display: block;
 align-items: center;
 
  }
 
+#indicadores h1{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+
 #novedad{
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
     }
     
 #novedad .foto {
@@ -166,26 +238,39 @@ align-items: center;
 
 
 
-
+/*
 #clientes {
     padding: 30px;
 
 }
+*/
 
 #clientes h2{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+    font-weight: bold;
+   font-style: oblique;
+    color: #555658;
 }
 
 #clientes .cliente123{
-    display: grid;
-    grid-template-columns:repeat(3,1fr) ;
-    gap: 30px;
+    background-color: #CDDBFF;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    border-radius: 10px;
+    max-width: 1200px;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
     }
     
-
-
-
-
 
 #clientes .cliente123 .cliente1{
     background-image: url(../img/persona1.jpg);
@@ -195,7 +280,12 @@ align-items: center;
     border-radius: 50%;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
+
 }
 
 #clientes .cliente123 .cliente2{
@@ -206,7 +296,11 @@ align-items: center;
     border-radius: 50%;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
 }
 #clientes  .cliente123   .cliente3{
     background-image: url(../img/persona3.jpg);
@@ -214,16 +308,52 @@ align-items: center;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
+
 }
 
 #clientes .detalle{
-    background-color: #CDDBFF;
+    background-color: #E8F5E9;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 30px;
+
+    flex-basis: 280px;
+    max-width: 300px;
+    flex-grow: 1;
+
 }
+
+
+#clientes .detalle h5{
+    padding: 5px;
+
+    font-style: bold;
+    text-align: center;
+
+}
+
+
+
+#clientes .detalle p{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+
+    text-align: justify;
+
+
+    font-style: bold;
+    font-style: italic
+
+}
+
+
+
 
 #clientes .detalle footer{
     display: flex;
@@ -233,47 +363,42 @@ align-items: center;
 
 
 
-#datoss{
-    background-color: #62AE44;
-    padding: 30px;
-    
-
-}
-
-#datoss .info1 {
-    color: white;
-    font-style: bold;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr  )  ;
-    gap: 20px;
-}
 
 
 #infocifras{
-    padding: 50px;
+    background-color: #E8F5E9;
+    width: 100%;
+    padding: 100px 0 80px 0;
+
    
 }
+
 #infocifras .cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr  )  ;
-    gap: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
 
 
 #infocifras .card {
 background-color: #63C789;
-    padding: 20px;
     color:white;
     font-style: bold;
-    gap: 30px;
     border-radius: 20px;
-    margin: 0px 0px 30px 0px;
+    padding: 15px;
 
+    gap: 20px;
 
+    margin-bottom: 20px;
+
+  
     }
 
 
 
+/*
 #metodologia {
     background-color:#63C789;
     padding: 30px;
@@ -301,7 +426,10 @@ background-color: #63C789;
 #metodologia .texto {
     display: flex;
     justify-content: space-between;
+
 }
+
+
 
 #metodologia .figura1{
   
@@ -309,28 +437,83 @@ background-image: url(../img/noun-method-4518785.svg);
 background-size: auto;
 background-position: center;
 background-repeat: no-repeat;
+}
+*/
+
+
+/* prueba metodo*/
+
+#metodo {
+    
+    background-color: #63C789;
+    padding: 50px 20px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0px 0px 0px;
+
+}
+
+#metodo .texto{
+    color: white;
+    display: grid;
+    margin-top: 30px;
+
+    flex-basis: 300px;
+    max-width: 700px;
+    flex-grow: 1;
+
+}
+
+#metodo .texto h1{
+    font-style: bold;
+    font-style: italic;
+    padding: 15px;
+
+}
+
+
+#metodo .figura1{
+background-image: url(../img/noun-method-4518785.svg);
+background-size: auto;
+background-position: center;
+background-repeat: no-repeat;
+
+width: 300px;
+height: 300px;
+
+flex-basis: 250px;
+max-width: 400px;
+flex-grow: 1;
 
 }
 
 
 
-
 #contacto {
-    padding: 30px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+
     gap: 10px;
     background-color:#CDDBFF;
     align-items: flex-end;
 justify-content: center;
 margin-bottom: 60px;
+margin-top: 0;
+
     
 }
 
 #contacto .fotoperfil {
     background-image: url(../img/persona3.jpg);
     background-size: cover;
-    width: auto;
+    width: 400;
     height: 300px;
 
 }
@@ -365,3 +548,9 @@ margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
 }
+
+
+
+
+
+
