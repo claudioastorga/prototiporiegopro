@@ -317,7 +317,7 @@ align-items: center;
 }
 
 #clientes .detalle{
-    background-color: #E8F5E9;
+    background-color: #e3edf2;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -494,49 +494,66 @@ flex-grow: 1;
 
 
 #contacto {
-    padding: 30px 0;
+    
+    background-color:#CDDBFF;
+
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px  ;
+    align-items: center;
+}
+
+#contacto .datoscontacto{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-flex-wrap: wrap;
+    flex-wrap: wrap;
 
-    gap: 10px;
-    background-color:#CDDBFF;
-    align-items: flex-end;
-justify-content: center;
-margin-bottom: 60px;
-margin-top: 0;
+}
+#contacto .datoscontacto .alinear{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto;
 
-    
+}
+
+
+#contacto h2{
+    margin-bottom: 30px;
+    margin-left: 90px;
+
+    font-weight: bold;
+    font-style: oblique;
+    color: #555658;
 }
 
 #contacto .fotoperfil {
     background-image: url(../img/persona3.jpg);
-    background-size: cover;
-    width: 400;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
     height: 300px;
-
 }
 
 #contacto .datos{
-    text-align: left;
     padding: 20px;
-    justify-content: space-between;
     color: #555658;
+    margin-left: 30px;
 
 }
 
-#contacto .datos h1{
-    font-style: bold;
-    font-style: italic;
-    color: #0A84FF;
-    text-align: center;
-    
-}
+
 #contacto  .direccion{
+
     padding: 20px;
     color: #555658;
-    text-align: left;
+    margin-left: 30px;
+
 }
 
 
