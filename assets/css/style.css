@@ -126,8 +126,7 @@ color: #1E88E5;
 #imagenprincipal{
     width: 90%;
     margin: 0 auto;
-    padding: 30px 0 0 0 ;
-   
+    padding: 30px 0 0 0 ;   
 }
 
 #imagenprincipal .fondofoto{
@@ -137,10 +136,12 @@ background-position: center;
 background-repeat: no-repeat;
 
 width: 1000px;
-height: 400px;
+height: 380px;
 
 flex-basis: 380px;
 max-width: 1200px;
+min-height: 300px;
+
 flex-grow: 1;
 
 
@@ -157,12 +158,11 @@ flex-grow: 1;
 #servicios{
     width: 90%;
     margin: 0 auto;
-    background-color: red;
 
 justify-content: space-between;}
 
 #servicios h2{
-    margin-bottom: 10px;
+    margin-top: 30px;
     margin-left: 50px;
 
     font-weight: bold;
@@ -171,16 +171,13 @@ justify-content: space-between;}
 
 }
 
-
-
-
 #servicios .servicio123{
     background-color: whitesmoke;
     width: 100%;
     margin: 0 auto;
-    padding: 30px 0 0 0;
+    padding: 20px 0 0 0;
     max-width: 1200px;
-    min-height: 30vh;
+    min-height: 350px;
     display: flex;
     align-items: center;
 
@@ -200,7 +197,9 @@ justify-content: space-between;}
     margin-bottom: 5px;
     border-radius: 10px;
 
-
+    flex-basis: 300px;
+    max-width: 450px;
+    flex-grow: 1;
 
 }
 
@@ -284,8 +283,16 @@ align-items: center;
     font-style: italic;
 }
 
+#indicadores h5{
+    font-weight: normal;
+    color: whitesmoke;
+}
 
 /*seccion novedad*/
+
+
+
+
 
 #novedad{    
     padding: 30px;
@@ -320,7 +327,6 @@ align-items: center;
 #clientes {
     width: 90%;
     margin: 0 auto;
-    background-color: red;
 }
 
 #clientes h2{
@@ -545,7 +551,7 @@ background-color: #63C789;
 
 
 #contacto h2{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 50px;
 
     font-weight: bold;
