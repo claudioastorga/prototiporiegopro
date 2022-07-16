@@ -11,7 +11,6 @@ nav .logo{
     background-image: url(/assets/img/logo_blanco_final_riegopro.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    align-items: center;
 
     width: 10rem;
     height: 3rem;
@@ -78,9 +77,9 @@ color: #1E88E5;
 
 #presentacion {
 
-   
+   background-color: white;
     
-    padding: 50px 20px ;
+    padding: 30px 20px ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -99,7 +98,7 @@ color: #1E88E5;
     background-repeat: no-repeat;
     
     width: 300px;
-    height: 300px;
+    height: 200px;
     
     flex-basis: 250px;
     max-width: 400px;
@@ -110,15 +109,15 @@ color: #1E88E5;
 #presentacion .texto {
     color: #555658;
     display: grid;
-    margin-top: 30px;
+    margin-top: 10px;
 
-    flex-basis: 400px;
+    flex-basis: 350px;
     max-width: 600px;
     flex-grow: 1;
 
     font-style: bold;
     font-style: italic;
-    padding: 15px;
+    padding: 10px;
 }
 
 
@@ -127,7 +126,7 @@ color: #1E88E5;
 #imagenprincipal{
     width: 90%;
     margin: 0 auto;
-    padding: 50px 0 0 0;
+    padding: 30px 0 0 0 ;
    
 }
 
@@ -138,9 +137,9 @@ background-position: center;
 background-repeat: no-repeat;
 
 width: 1000px;
-height: 380px;
+height: 400px;
 
-flex-basis: 400px;
+flex-basis: 380px;
 max-width: 1200px;
 flex-grow: 1;
 
