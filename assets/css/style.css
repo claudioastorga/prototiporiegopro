@@ -127,6 +127,8 @@ color: #1E88E5;
     width: 90%;
     margin: 0 auto;
     padding: 30px 0 0 0 ;   
+    
+
 }
 
 #imagenprincipal .fondofoto{
@@ -134,6 +136,11 @@ color: #1E88E5;
     background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+
 
 width: 1000px;
 height: 380px;
@@ -144,10 +151,29 @@ min-height: 300px;
 
 flex-grow: 1;
 
+}
+
+
+
+
+
+
+
+#imagenprincipal .texto{
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 2px #555658;
+    padding: 20px;
+
+
+
+
+
+
 
 
 }
-
 
 
 
