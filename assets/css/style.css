@@ -259,19 +259,18 @@ justify-content: space-between;}
 /*azul indicadores*/
 
 #indicadores {
-    background-color: #1E88E5
-;
+    background-color: #1E88E5;
     color: white;
     padding: 15px;
     margin: 30px 0px 30px 0px;
 }
 #indicadores .datos { 
 text-align: center;
-padding: 15px;
+padding: 10px;
 }
 
 #indicadores .dato1 { 
-padding: 10px;  
+padding: 5px;  
 margin: auto; 
 display: block;
 align-items: center;
@@ -577,7 +576,7 @@ background-color: #63C789;
     border-radius: 10px;
 
     background-position: center;
-    width: 380px;
+    width: 350px;
     height: 300px;
 
 
