@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riego Pro</title>
+
+   
+  
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
 <!--tipografia lato-->
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -21,17 +26,40 @@
 </head>
 <body>
 
-<nav class="navbar">
-<div><img class="logo" src="/assets/img/logo_riegogrispro.svg" alt=""></div>
-
-<div class="secciones">
-
-<a href="#">Home</a>
-<a href="#">servicios</a>
-<a href="#">empresa</a>
-<a href="#">contacto</a>
-</div>
-<div><button>Ingreso</button></div>
+<nav id="barra" class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+      <img class="logo" src="assets/img/logo_blanco_final_riegopro.svg" alt="">
+    <a class="logo navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Dropdown</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+    
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
 </nav>
 
 
@@ -40,75 +68,173 @@
 
 
 
+
+
+<!-- Antigugo nav bar 
+<nav class="navbar navbar-expand-lg navbar-dark bg-gris  ">
+<div class="container">
+
+
+
+    <div class="logo navbar-logo nav-logo"> </div>
+
+
+<div class="nav__menu secciones collapse navbar-collapse justify-content-end ml-auto">
+
+    <a href="#">Home</a>
+    <a class= "nav_item" href="#servicios">Servicios</a>
+    <a href="#">empresa</a>
+    <a class="nav-link" href="#contacto">Contacto</a>
+</div>
+<div><button>Ingreso</button></div>
+</div>
+</nav>
+-->
+
+
+
+
+
+<!--  PRUEBA CAMBIO HERO SECCTION
+
 <section id="hero-section" class="row mx-0">
 <img class="img-fluid col-12 col-lg-6" src="assets/img/riego2.jpg" alt="">
 
 <aside class="col-12 col-lg-6">
-<h1 class="">Asesoría en manejo del riego</h1>
+<h1 class="">Programación de Riego Agrícola</h1>
 <p>Asesoria en el manejo del riego a través del uso de tecnologías que permiten medir con precisión el estado hídrico del suelo y de las
  plantas.</p>
     </aside>
 </section>
+-->
 
-<section id="servicios" >
-<h2>Servicios</h2>
-<div class="cards ">
+<section id="imagenprincipal" class="row">
 
-<div class="servicio1">
-<div class="card1">  </div>
-    <div class="caja">
+    <div class="fondofoto">
+<div class="texto"> <h1 class="DevCode">Programación de Riego Agrícola</h1>
+
+
+
+</div>
+
+    </div>
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+<!--prueba logo y frase-->
+
+<section id="presentacion" class="row">
+
+    
+    <div class="logotexto">
+ 
+     
+    </div> 
+     
+     <article class="texto">
+         <h4>Nos dedicamos a asesorar en el manejo del riego de diferentes especies agrícolas, a través del uso de tecnologías que permiten medir con precisión el estado hídrico del suelo y de las plantas.</h4>
+
+        
+     </article>
+     
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /*nueva card servicios*/ -->
+
+<section id="servicios">
+    <h2>Nuestros Servicios</h2>
+<div class="servicio123">
+
+<div>
+    <div class="servicio1">
+    </div>
+<div class="detalle">
     <h5>Programación de riego</h5>
     <p>texto</p>
     <footer>
-    <button>leer +</button>
-    </footer>
+        <button>conocer +</button>
+        </footer>
     </div>
 </div>
 
-<div class="servicio2">
-    <div class="card2">  </div>
-    <div class="caja">
+
+<div>
+    <div class="servicio2">
+    </div>
+<div class="detalle">
     <h5>Fertiriego en frutales y vides</h5>
     <p>texto</p>
     <footer>
-    <button>leer +</button>
-    </footer>
+        <button>conocer +</button>
+        </footer>
     </div>
 </div>
 
-<div class="servicio3 ">
-    <div class="card3">  </div>
-    <div class="caja">
+<div>
+    <div class="servicio3">
+    </div>
+<div class="detalle">
     <h5>Capacitacion</h5>
     <p>texto</p>
     <footer>
-    <button>leer +</button>
-    </footer>
+        <button>conocer +</button>
+        </footer>
     </div>
 </div>
 
+
+
+
+
 </div>
-</section>
+
+
+</section>    
+
+
+
+<!-- /*nueva card servicios*/ -->
 
 <section id="indicadores">
     <div class="datos row"> 
 
     <div class="dato1 img-fluid col-12 col-md-4">
-    <h1>24 HT</h1>
-    <h2>cifras relevantes</h2>
-    <p>detalle de informacion explicado.</p>
+    <h5>Cobertura de Servicios</h5>
+    <h1>5º, 6º y 7º región</h1>
     </div>
 
     <div class="dato1 img-fluid col-12 col-md-4">
-        <h1>45 HT</h1>
-        <h2>cifras relevantes</h2>
-        <p>detalle de informacion explicado.</p>
+        <h5>Amplia experiencia</h5>
+        <h1>Frutales y Vides</h1>
     </div>
 
     <div class="dato1 img-fluid col-12 col-md-4">
-        <h1>300 HT</h1>
-        <h2>cifras relevantes</h2>
-        <p>detalle de informacion explicado.</p>
+        <h1>15 años</h1>
+        <h5>Experiencia Comprobada</h5>
         </div>
 
         </div>
@@ -119,7 +245,7 @@
     </section>
 
     <section id="novedad" class="row mx-0">
-        <img class="img-fluid foto col-12 col-lg-6" src="assets/img/riego_home.jpg" alt="">
+        <img class="img-fluid foto col-12 col-lg-6" src="assets/img/mapa.jpg" alt="">
 
 
         <aside class="fondo col-12 col-lg-6">
@@ -143,18 +269,15 @@
 
 
 <section id="clientes">
-    <h2>Casos de éxito</h2>
+    <h2>Testimonios y casos de éxito</h2>
 <div class="cliente123">
 
 <div>
     <div class="cliente1">
     </div>
 <div class="detalle">
-    <h5>Fundo los Maitenes Linares</h5>
-    <p>texto</p>
-    <footer>
-        <button>conocer +</button>
-        </footer>
+    <h5>Fundo los Maitenes Linares </h5>
+    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesc ssitatibus eum perspiciatis culpa."</p>
     </div>
 </div>
 
@@ -163,11 +286,8 @@
     <div class="cliente2">
     </div>
 <div class="detalle">
-    <h5>Viñedos Juan Nuñez Casablanca</h5>
-    <p>texto</p>
-    <footer>
-        <button>conocer +</button>
-        </footer>
+    <h5>Viñedos Nuñez Casablanca</h5>
+    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesc ssitatibus eum perspiciatis culpa."</p>
     </div>
 </div>
 
@@ -176,10 +296,10 @@
     </div>
 <div class="detalle">
     <h5>Fundo Agricola San Fernando</h5>
-    <p>texto</p>
-    <footer>
+    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesc ssitatibus eum perspiciatis culpa."</p>
+   <!--<footer>
         <button>conocer +</button>
-        </footer>
+        </footer> -->
     </div>
 </div>
 
@@ -194,24 +314,13 @@
 
 
 
+
+
+
 <!-- 
-
-<section id="metodo" class="row mx-0">
-<img id="figura"class="img-fluid col-12 col-lg-6" src="assets/img/noun-method-4518785.svg" alt="">
-<aside class="col-12 col-lg-6">
-    <h1>Metodología empleada</h3>
-    <h5>Caracterización de la capacidad de almacenamiento de agua del suelo</h5>
-    <h5>Aforo de emisores en goteo y microaspersión</h5>
-    <h5>Evaluaciones de la infiltración de agua en el suelo en riego por surcos</h5>
-    <h5>Mediciones periódicas del contenido de humedad del suelo</h5>
-    <h5>Mediciones periódicas del contenido de humedad del suelo</h5>
-    <h5>Envío de recomendación de riego</h5>
-</aside>
-
-</section>
--->
-
 <section id="metodologia" class="">
+
+    
     <div class="figura1 in-flex">
  
      
@@ -233,7 +342,31 @@
      
  </section>
      
+-->
+
+ <section id="metodo" class="row">
+
+    
+    <div class="figura1">
  
+     
+    </div> 
+     
+     <article class="texto">
+         <h1>Metodología empleada</h1>
+         <ul>
+             <h4>
+         <li> Caracterización de la capacidad de almacenamiento de agua del suelo</li>
+         <li> Aforo de emisores en goteo y microaspersión</li>
+         <li> Evaluaciones de la infiltración de agua en el suelo en riego por surcos</li>
+         <li> Mediciones periódicas del contenido de humedad del suelo</li>
+         <li> Envío de recomendación de riegos</li>
+        </h4>
+         </ul>
+        
+     </article>
+     
+ </section>
 
 
 <!--
@@ -314,25 +447,33 @@
 
 <section id="contacto">
 
+    <h2>Contacto</h2>
+
+
+<div class="datoscontacto"> 
+
+
 <div class="fotoperfil"> </div>
-<div class="datos"> 
-    <h1>contacto</h1>
-    <h2>Alejandro Acevedo</P>
-        <h3>Ingeniero agronomo</h3>
-        <h4>Magister MSC </h4>
+
+<div class="ajuste">
+<article class="nombre"> 
+    <h4>Alejandro Acevedo Pavez</h4>
+    <h4>Ingeniero Agrónomo</h4>
+    <h4>MSc</h4>
         
-    </div>
+</article>
 
-    <div class="direccion">
-        <h4>Avenida Freire #328, 
-            Curicó, Chile.
-            (569) 7879-8731
-            aacevedo@riegopro.cl</h4>
+    <article class="direccion">
+        <h6>Avenida Freire #328, </h6>
+        <h6>Curicó, Chile.</h6>
+        <h6>(569) 7879-8731</h6>
+        <h6>aacevedo@riegopro.cl</h6>
 
-    </div>
+    </article>
 
+</div>
 
-
+</div>
 </section>
 
 
