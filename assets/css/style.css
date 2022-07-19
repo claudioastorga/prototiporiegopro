@@ -2,6 +2,16 @@
     background-color: #555658;
 }
 
+#barra .logo{
+    height: 40px;
+    padding-left: 30px;
+}
+
+
+
+
+
+/*
 .logo{
     background-image: url(/assets/img/logo_blanco_final_riegopro.svg);
     background-size: cover;
@@ -15,7 +25,7 @@ padding: 0 20 0 0;
     
 
 
-/*
+
  nav {
     background: #555658;
     padding: 15px 30px;
