@@ -1,10 +1,54 @@
-nav{
-    background-color:#555658;
-    font-family: 'lato';
-    padding: 30px;
+#barra {
+    background-color: #555658;
+}
+
+.logo{
+    background-image: url(/assets/img/logo_blanco_final_riegopro.svg);
+    background-size: cover;
+
+  width: 200px;
+    height: 40px;
+    justify-content: right;
+padding: 0 20 0 0;
+
+}
+    
+
+
+/*
+ nav {
+    background: #555658;
+    padding: 15px 30px;
+    display: flex;
     color: white;
+    justify-content: space-between;
+  }
+
+  nav .opciones {
+    width: 30%;
     display: flex;
     justify-content: space-between;
+  }
+
+  nav .opciones a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  
+  nav .opciones :hover{
+    font-weight: 900;
+    color: #1E88E5;
+}
+  
+ 
+ #barra .navbar{
+    background-color:#555658;
+    font-family: 'lato';
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav .logo{
@@ -18,18 +62,18 @@ nav .logo{
 }
 
 
-nav .secciones{
+.secciones{
     display: flex;
     width: 40%;
     justify-content: space-between;
 }
-nav .secciones a{
+nav-item a{
     text-decoration: none;
     color: white;
     
 }
 
-nav .secciones :hover{
+nav-item :hover{
     font-weight: 900;
     color: #1E88E5;
 }
@@ -40,6 +84,9 @@ nav .secciones :hover{
 nav button{
     background-color: #1E88E5;
 }
+
+
+*/
 body{
     font-family: 'lato';
     background-color: whitesmoke;
