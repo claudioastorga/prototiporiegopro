@@ -1,12 +1,31 @@
-#menu {
-    background-color: #555658;
+
+
+#navegacion {
+    color: white;
+    justify-content: space-between;
+    margin: 0 auto;
 }
-
-
  .logo{
 width: 20%;
+margin-left: 30px;
+justify-content: flex-start;
 
 }
+
+nav .categorias a {
+    font-family: 'lato';
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+  }
+
+nav .categorias a :hover {
+font-weight: 900;  
+color: #1E88E5;
+}
+
+
 
 
 
@@ -57,47 +76,7 @@ padding: 0 20 0 0;
 }
   
  
- #barra .navbar{
-    background-color:#555658;
-    font-family: 'lato';
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-}
 
-nav .logo{
-    background-image: url(/assets/img/logo_blanco_final_riegopro.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    width: 10rem;
-    height: 3rem;
-    justify-content: left;
-}
-
-
-.secciones{
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
-}
-nav-item a{
-    text-decoration: none;
-    color: white;
-    
-}
-
-nav-item :hover{
-    font-weight: 900;
-    color: #1E88E5;
-}
-
-
-
-
-nav button{
-    background-color: #1E88E5;
-}
 
 
 */
@@ -187,7 +166,7 @@ color: #1E88E5;
 #imagenprincipal{
     width: 90%;
     margin: 0 auto;
-    padding: 30px 0 0 0 ;   
+    padding: 50px 0 0 0 ;   
     
 
 }
