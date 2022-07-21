@@ -4,6 +4,7 @@
     color: white;
     justify-content: space-between;
     margin: 0 auto;
+
 }
  .logo{
 width: 20%;
@@ -12,20 +13,25 @@ justify-content: flex-start;
 
 }
 
-nav .categorias a {
+#navegacion .categorias {
     font-family: 'lato';
     font-weight: bold;
     text-decoration: none;
     color: white;
-    justify-content: space-between;
+    margin-right: 20px;
   }
 
-nav .categorias a :hover {
+#navegacion .categorias :hover {
 font-weight: 900;  
 color: #1E88E5;
+
+
 }
 
 
+#navegacion .ingresar{
+    margin-right: 20px;
+}
 
 
 
