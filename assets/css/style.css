@@ -125,7 +125,7 @@ color: #1E88E5;
 
    background-color: white;
     
-    padding: 30px 20px ;
+    padding: 50px 20px ;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -197,6 +197,9 @@ min-height: 300px;
 
 flex-grow: 1;
 
+box-shadow: 5px 5px 50px rgba(0, 0, 0, .20);
+
+
 }
 
 
@@ -234,7 +237,7 @@ flex-grow: 1;
 justify-content: space-between;}
 
 #servicios h2{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 50px;
 
     font-weight: bold;
@@ -273,6 +276,9 @@ justify-content: space-between;}
     max-width: 450px;
     flex-grow: 1;
 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
+
 }
 
 #servicios .servicio123 .servicio2{
@@ -289,6 +295,9 @@ justify-content: space-between;}
     flex-basis: 300px;
     max-width: 450px;
     flex-grow: 1;
+
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
 }
 #servicios  .servicio123   .servicio3{
     background-image: url(../img/riego3.jpg);
@@ -304,6 +313,9 @@ justify-content: space-between;}
     max-width: 450px;
     flex-grow: 1;
 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
+
 }
 
 #servicios .detalle{
@@ -311,6 +323,9 @@ justify-content: space-between;}
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 30px;
+
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
 
 }
 
@@ -322,55 +337,76 @@ justify-content: space-between;}
 
 
 #servicios .detalle  footer button{
-    background-color:#62AE44;
+    background-color:#63C789;
     color: white;
     border-radius: 8px;
 
 }
 
-/*azul indicadores*/
+/*metodologia verde*/
 
-#indicadores {
-    background-color: #1E88E5;
+
+#metodo {
+    
+    background-color: #63C789;
+    padding: 50px 20px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0px 0px 0px;
+
+}
+
+#metodo .texto{
     color: white;
-    padding: 15px;
-    margin: 30px 0px 30px 0px;
+    display: grid;
+    margin-top: 30px;
+
+    flex-basis: 300px;
+    max-width: 700px;
+    flex-grow: 1;
+
 }
-#indicadores .datos { 
-text-align: center;
-padding: 10px;
-}
 
-#indicadores .dato1 { 
-padding: 5px;  
-margin: auto; 
-display: block;
-align-items: center;
-
- }
-
-#indicadores h1{
-    font-weight: bold;
+#metodo .texto h1{
+    font-style: bold;
     font-style: italic;
+    padding: 15px;
+
+
 }
 
-#indicadores h5{
-    font-weight: normal;
-    color: whitesmoke;
+
+#metodo .figura1{
+background-image: url(../img/noun-method-4518785.svg);
+background-size: auto;
+background-position: center;
+background-repeat: no-repeat;
+
+width: 300px;
+height: 300px;
+
+flex-basis: 250px;
+max-width: 400px;
+flex-grow: 1;
+
+filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, .25));
+
+
 }
+
 
 /*seccion novedad*/
 
-
-
-
-
 #novedad{    
-    padding: 30px;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 
     
     }
@@ -392,6 +428,41 @@ align-items: center;
     font-style: italic;
     color: #0A84FF;
     }
+
+
+
+
+
+/*azul indicadores*/
+
+#indicadores {
+    background-color: #1E88E5;
+    color: white;
+    padding: 15px;
+    margin: 5px 0px 50px 0px;
+}
+#indicadores .datos { 
+text-align: center;
+padding: 10px;
+}
+
+#indicadores .dato1 { 
+padding: 5px;  
+margin: auto; 
+display: block;
+align-items: center;
+
+}
+
+#indicadores h1{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#indicadores h5{
+    font-weight: normal;
+    color: whitesmoke;
+}
 
 /*secion clientes*/
 
@@ -439,6 +510,8 @@ align-items: center;
     max-width: 450px;
     flex-grow: 1;
 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
 }
 
 #clientes .cliente123 .cliente2{
@@ -454,6 +527,9 @@ align-items: center;
     flex-basis: 280px;
     max-width: 450px;
     flex-grow: 1;
+
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
 }
 #clientes  .cliente123   .cliente3{
     background-image: url(../img/persona3.jpg);
@@ -466,6 +542,9 @@ align-items: center;
     flex-basis: 280px;
     max-width: 450px;
     flex-grow: 1;
+
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
 }
 
 #clientes .detalle{
@@ -477,6 +556,9 @@ align-items: center;
     flex-basis: 280px;
     max-width: 300px;
     flex-grow: 1;
+
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
 }
 
 
@@ -505,61 +587,12 @@ align-items: center;
     justify-content: flex-end;    
 }
 
-/*metodologia verde*/
-
-
-#metodo {
-    
-    background-color: #63C789;
-    padding: 50px 20px ;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 50px 0px 0px 0px;
-
-}
-
-#metodo .texto{
-    color: white;
-    display: grid;
-    margin-top: 30px;
-
-    flex-basis: 300px;
-    max-width: 700px;
-    flex-grow: 1;
-
-}
-
-#metodo .texto h1{
-    font-style: bold;
-    font-style: italic;
-    padding: 15px;
-
-}
-
-
-#metodo .figura1{
-background-image: url(../img/noun-method-4518785.svg);
-background-size: auto;
-background-position: center;
-background-repeat: no-repeat;
-
-width: 300px;
-height: 300px;
-
-flex-basis: 250px;
-max-width: 400px;
-flex-grow: 1;
-
-}
 
 /*infocifras verdes*/
 
 #infocifras{
-    background-color: #E8F5E9;
+    background-color: #50dfb2
+    ;
     width: 100%;
     padding: 100px 0 80px 0;
 
@@ -576,7 +609,7 @@ flex-grow: 1;
 
 
 #infocifras .card {
-background-color: #63C789;
+background-color: #045256;
     color:white;
     font-style: bold;
     border-radius: 20px;
@@ -604,8 +637,8 @@ background-color: #63C789;
     padding: 30px 0 0 0;
     border-radius: 10px;
 
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -650,6 +683,9 @@ background-color: #63C789;
     background-position: center;
     width: 350px;
     height: 300px;
+
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
+
 
 
 
