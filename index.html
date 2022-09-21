@@ -31,50 +31,58 @@
 </head>
 <body>
 
-<nav id="navegacion" class="navbar navbar-expand-md navbar-dark" style="background-color: #555658 ; ">
+
+<!--nav bar-->
+<nav id="barranavegacion" class="navbar fixed-top  navbar-expand-md navbar-dark"  >
     
-    <div class="container-fluid">
+    <div id="menu" class="container-fluid">
         <a class="navbar-brand" href="#">
             <a class="navbar-brand" href="#">
-                <img src="assets/img/logo_blanco_final_riegopro.svg" alt="" width="auto" height="25px">
+                <img src="assets/img/logo_blanco_final_riegopro.svg" alt="" width="auto" height="30px">
               </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-<div class="collapse navbar-collapse " id="menu">
+<div class="collapse navbar-collapse " id="menu" >
 
     <ul class="navbar-nav ms-auto categorias">
 
         <li class="nav-item">
-        <a class="nav-link active" href="#presentacion">Inicio</a></li>
+        <a class="nav-link active" href="#carouselExampleDark">Inicio</a></li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#servicios" id="navbarDropdown" role="button" 
+            data-bs-toggle="dropdown" aria-expanded="false">
+              Servicios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#servicios">Programación de Riego</a></li>
+              <li><a class="dropdown-item" href="#servicios">Fertiriego en frutales y vides</a></li>
+              <li><a class="dropdown-item" href="#servicios">Capacitación</a></li>
+
+            </ul>
+          </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="#servicios">Servicios</a></li>
+        <a class="nav-link active" href="#nosotros">Metodología</a></li>
 
         <li class="nav-item">
-        <a class="nav-link" href="#clientes">Clientes</a></li>
+        <a class="nav-link active" href="#vinculos">Clientes</a></li>
+
 
         <li class="nav-item">
-        <a class="nav-link" href="#metodo">Metodología</a></li>
+        <a class="nav-link active" href="#noticias">Contacto</a></li>
 
-        <li class="nav-item">
-        <a class="nav-link" href="#contacto">Contacto</a></li>
-
-
-
-
-
+    
 
     </ul>
-
 
     <form class="d-flex ingresar">
         <button class="btn btn-primary"  data-toggle="tooltip" 
         data-placement="right" title="inicio de sesión"  type="submit">Ingresar</button>
       </form>
-
 </div>
 
     </div>
@@ -85,23 +93,50 @@
 
 
 
-
-
-<!-- imagen principal-->
-
-<section id="imagenprincipal" class="row">
-
-    <div class="fondofoto">
-<div class="texto"> <h1 class="DevCode">Programación de Riego Agrícola</h1>
-
-
-
-</div>
-
+<!-- prueba carrusel-->
+<div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+       <div class="fotocarrusel1">  <img src="..." class="d-block w-100" alt="..."> </div> 
+        <div class="carousel-caption  d-md-block">
+          <h1 class="textocarrusel">Programación de Riego Agrícola</h1>
+          <p class="d-none d-md-block">Servicio de Progra de Riego</p>
+        </div>
+      
     </div>
 
+      <div class="carousel-item">
+        <div class="fotocarrusel2">  <img src="..." class="d-block w-100" alt="..."> </div> 
+        <div class="carousel-caption d-md-block">
+          <h1 class="textocarrusel">Servicio de Fertiriego</h1>
+          <p class="d-none d-md-block">Servicio de Fertiriego</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="fotocarrusel3">  <img src="..." class="d-block w-100" alt="..."> </div> 
+        <div class="carousel-caption d-md-block">
+          <h1 class="textocarrusel">Servicio de Capacitación</h1>
+          <p class="d-none d-md-block">Servicio de Capacitación</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-</section>
+
+<!-- fin carrusel -->
 
 
 
@@ -156,7 +191,7 @@
     <div class="servicio3">
     </div>
 <div class="detalle">
-    <h5>Capacitacion</h5>
+    <h5>Capacitación</h5>
     <p>El objetivo de este servicio es transferir los conocimientos y técnicas que permitan mejorar el manejo hídrico del predio, de manera que el personal encargado tenga el entrenamiento necesario para realizar esta labor eficientemente.
     </p>
     <footer>
@@ -187,7 +222,8 @@
          <li> Aforo de emisores en goteo y microaspersión</li>
          <li> Evaluaciones de la infiltración de agua en el suelo en riego por surcos</li>
          <li> Mediciones periódicas del contenido de humedad del suelo</li>
-         <li> Envío de recomendación de riegos</li>
+         <li> Mediciones periódicas del potencial hídrico de xilema</li>
+         <li> Envío de recomendación de riego</li>
         </h4>
          </ul>
         
@@ -297,40 +333,6 @@
 
 
 
-<section id="infocifras">
-    
-    <div class="cards">    
-    <div class="card">
-        <h1>24 HT</h1>
-        <h2>cifras relevantes</h2>
-        <p>detalle de informacion explicado.</p>
-    </div>
-    
-    <div class="card">
-        <h1>24 HT</h1>
-        <h2>cifras relevantes</h2>
-        <p>detalle de informacion explicado.</p>
-    </div>
-    
-    <div class="card">
-    
-        <h1>24 HT</h1>
-        <h2>cifras relevantes</h2>
-        <p>detalle de informacion explicado.</p>
-    </div>
-    
-    <div class="card">
-    
-        <h1>24 HT</h1>
-        <h2>cifras relevantes</h2>
-        <p>detalle de informacion explicado.</p>
-    </div>
-    
-    
-    </div>
-</div>
-    
-    </section>
     
 
 <section id="contacto">
