@@ -699,10 +699,11 @@ font-size: 14px;
 #piedepagina .footer-col{
 width: 20%;
 
-min-width: 220px;
+min-width: 150px;
 gap: 20px;
 padding: 0 20px;
 margin-bottom: 30px;
+margin: 30px;
 
 
 }
@@ -725,7 +726,11 @@ color: white;
     background-repeat: no-repeat;
 
     width: 25%;
-min-width: 200px;
+min-width: 220px;
+flex-basis: 250px;
+
+padding: 25px;
+
 
 }
 
