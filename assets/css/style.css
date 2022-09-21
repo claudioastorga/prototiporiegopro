@@ -1,5 +1,4 @@
 
-
 #navegacion {
     color: white;
     justify-content: space-between;
@@ -39,49 +38,6 @@ color: #1E88E5;
 
 
 
-
-/*
-.logo{
-    background-image: url(/assets/img/logo_blanco_final_riegopro.svg);
-    background-size: cover;
-
-  width: 200px;
-    height: 40px;
-    justify-content: right;
-padding: 0 20 0 0;
-
-}
-    
-
-
-
- nav {
-    background: #555658;
-    padding: 15px 30px;
-    display: flex;
-    color: white;
-    justify-content: space-between;
-  }
-
-  nav .opciones {
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  nav .opciones a {
-    text-decoration: none;
-    color: white;
-  }
-
-
-  
-  nav .opciones :hover{
-    font-weight: 900;
-    color: #1E88E5;
-}
-  
- 
 
 
 
@@ -152,6 +108,9 @@ color: #1E88E5;
     
     }
 
+
+
+  
 #presentacion .texto {
     color: #555658;
     display: grid;
@@ -164,6 +123,10 @@ color: #1E88E5;
     font-style: bold;
     font-style: italic;
     padding: 10px;
+    text-align: justify;
+    line-height: 25px;
+
+
 }
 
 
@@ -237,12 +200,11 @@ box-shadow: 5px 5px 50px rgba(0, 0, 0, .20);
 justify-content: space-between;}
 
 #servicios h2{
-    margin-top: 50px;
-    margin-left: 50px;
+    margin: 50px 0 30px 50px;
 
-    font-weight: bold;
-    font-style: italic;
     color: #555658;
+font-weight: 600;
+font-style: italic;
 
 }
 
@@ -250,7 +212,7 @@ justify-content: space-between;}
     background-color: whitesmoke;
     width: 100%;
     margin: 0 auto;
-    padding: 20px 0 0 0;
+    padding: 40px 15px 15px 20px;
     max-width: 1200px;
     min-height: 350px;
     display: flex;
@@ -343,6 +305,12 @@ justify-content: space-between;}
 
 }
 
+
+
+
+
+
+
 /*metodologia verde*/
 
 
@@ -356,7 +324,7 @@ justify-content: space-between;}
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
-    margin: 30px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
 
 }
 
@@ -369,13 +337,19 @@ justify-content: space-between;}
     max-width: 700px;
     flex-grow: 1;
 
+
 }
+
+#metodo .texto ul{
+    line-height: 30px;
+
+}
+
 
 #metodo .texto h1{
     font-style: bold;
     font-style: italic;
     padding: 15px;
-
 
 }
 
@@ -709,15 +683,73 @@ background-color: #045256;
 
 }
 
+
+
+
 /*footer*/
 
-.final{
+#piedepagina{
+    width: 100%;
+    margin: 0 auto;
+
     background-color: #555658;
-    font-family: 'lato';
-    padding: 30px;
     color: white;
-    display: flex;
-    justify-content: space-between;
+    padding: 70px 0 ;
+
+}
+#pidepagina .container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+#piedepagina .row{
+
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+    
+}
+   
+#piedepagina ul{
+list-style: none;
+margin: 0;
+padding: 0;
+font-size: 14px;
+
+}
+
+#piedepagina .footer-col{
+width: 20%;
+
+min-width: 220px;
+gap: 20px;
+padding: 0 20px;
+margin-bottom: 30px;
+
+
+}
+
+#piedepagina .footer-col h5{
+font-weight: 800;
+margin-bottom: 40px;
+
+}
+
+#piedepagina .footer-col ul li a{    
+text-decoration: none;
+color: white;                 
+}
+
+#piedepagina .logo{
+    background-image: url(../img/logo_blanco_final_riegopro.svg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 25%;
+min-width: 200px;
+
 }
 
 
