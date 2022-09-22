@@ -1,12 +1,12 @@
 */
 body{
     font-family: 'lato';
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 
 #barranavegacion{
-    font-family: 'lato', sans-serif;
+    font-family: 'lato';
 color: white;}
 
 
@@ -25,14 +25,16 @@ justify-content: flex-start;
     width: 90%;
     margin: 0 auto;
     justify-content: space-between;
+    gap: 40px;
+
 }
 
 
 #barranavegacion .categorias {
-    font-weight: 600;
+    font-weight: 800;
     text-decoration: none;
-    gap: 20px;
-    font-family: 'lato', sans-serif;
+margin: 0 40px;   
+ font-family: 'lato';
     color: white;
   }
 
@@ -42,9 +44,15 @@ color: #1E88E5;
 
 }
 
-/* carrusel*/
-#carouselExampleCaptions{
- 
+#barranavegacion .btn  {
+    background-color: #0cb1f2;
+    color: white;
+    
+    }
+
+/*header*/
+
+#comienzo {
     width: 90%;
     margin: 0 auto;
    
@@ -52,34 +60,12 @@ color: #1E88E5;
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
-}
 
-
-#carouselExampleCaptions .fotocarrusel1{
-    background-image: url(../img/c2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    border-radius: 10px;
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
-    width: 100%;
-    height: 380px;
-
-    flex-basis: 100%;
-    max-width: 1200px;
-    min-height: 330px;
 
 }
 
+#comienzo .imagen{
 
-
-
-#carouselExampleCaptions .fotocarrusel2{
     background-image: url(../img/c3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,46 +81,19 @@ color: #1E88E5;
     height: 380px;
 
     flex-basis: 100%;
-    max-width: 1200px;
     min-height: 350px;
 
-}
-#carouselExampleCaptions .fotocarrusel3{
-    background-image: url(../img/c1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    border-radius: 10px;
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
-    width: 100%;
-    height: 380px;
-
-    flex-basis: 100%;
-    max-width: 1200px;
-    min-height: 350px;
 
 }
 
 
-#carouselExampleCaptions .carousel-caption{
+#comienzo .texto{
     font-style: oblique;
     color: white;
     text-shadow: 2px 2px 2px #555658;
-    align-content: center;
     font-weight: 600;
+    
 
-}
-#carouselExampleCaptions p{
-    font-style: oblique;
-    color: white;
-    text-shadow: 2px 2px 2px #555658;
-    align-content: center;
-    font-weight: 500;
 
 }
 
@@ -210,26 +169,10 @@ color: #1E88E5;
     margin: 50px 0 30px 50px;
 
     color: #555658;
-font-weight: 600;
-font-style: italic;
+font-weight: 800;
 
 }
- /* 
-#servicios .servicio123{
-    background-color: whitesmoke;
-    width: 100%;
-    margin: 0 auto;
-  padding: 40px 15px 15px 20px;
-    min-height: 350px;
-    display: flex;
-    align-items: center;
 
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-grow: 1;
-
-    align-items: flex-start;
-    }*/
     
 
     #servicios .servicio1{
@@ -425,8 +368,7 @@ font-style: italic;
 
 
 #metodo .texto h1{
-    font-style: bold;
-    font-style: italic;
+    font-weight: 800;
     padding: 15px;
 
 }
@@ -450,196 +392,66 @@ filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, .25));
 
 }
 
+/* seccion vinculos */
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px *3));
+    }
 
-/*seccion novedad*/
+}
 
-#novedad{    
-    padding: 50px;
+.slider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.slider .slide-track{
+    animation: scroll 40s linear infinite;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0px;
-
-    
-    }
-    
-#novedad .foto {
-    border-radius: 15px;
+    width: calc(250px * 7 );
+    margin-top: 30px;
 
 }
-
-    
-#novedad aside{
-    padding: 15px;
-    padding-right: 0;
-    text-align: justify;
- }
-    
-#novedad aside h1{
-    font-weight: bold;
-    font-style: italic;
-    color: #0A84FF;
-    }
-
-
-
-
-
-/*azul indicadores*/
-
-#indicadores {
-    background-color: #1E88E5;
-    color: white;
-    padding: 15px;
-    margin: 5px 0px 50px 0px;
-}
-#indicadores .datos { 
-text-align: center;
-padding: 10px;
+.slider .slide{
+    height: 100px;
+    width: 250px;
 }
 
-#indicadores .dato1 { 
-padding: 5px;  
-margin: auto; 
-display: block;
-align-items: center;
-
+#clientes{
+width: 90%;
+margin: 0 auto;
 }
 
-#indicadores h1{
-    font-weight: bold;
-    font-style: italic;
+#clientes .slider{
+width: 50%;
+margin: 0 auto;
+background-color: white;
+border-radius: 10px;
 }
 
-#indicadores h5{
-    font-weight: normal;
-    color: whitesmoke;
-}
 
-/*secion clientes*/
-
-#clientes {
-    width: 90%;
-    margin: 0 auto;
-}
 
 #clientes h2{
-    margin-bottom: 30px;
-    margin-left: 50px;
-
-    font-weight: bold;
-   font-style: oblique;
-    color: #555658;
+margin: 50px 0 30px 50px;
+color: #555658;
+font-weight: 800;
 }
 
-#clientes .cliente123{
-    background-color: #CDDBFF;
-    width: 100%;
-    margin: 0 auto;
-    padding: 30px 0 0 0;
-    border-radius: 10px;
-    max-width: 1200px;
-    min-height: 30vh;
-    display: flex;
-    align-items: center;
 
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    }
+
+
+#clientes .textovinculos{
     
-
-#clientes .cliente123 .cliente1{
-    background-image: url(../img/persona1.jpg);
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 15px;
-
-    flex-basis: 280px;
-    max-width: 450px;
-    flex-grow: 1;
-
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
-
-}
-
-#clientes .cliente123 .cliente2{
-    background-image: url(../img/persona2.JPG);
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin: auto;
-    display: block;
-    margin-bottom: 15px;
-
-    flex-basis: 280px;
-    max-width: 450px;
-    flex-grow: 1;
-
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
-
-}
-#clientes  .cliente123   .cliente3{
-    background-image: url(../img/persona3.jpg);
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-
-    flex-basis: 280px;
-    max-width: 450px;
-    flex-grow: 1;
-
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
-
-}
-
-#clientes .detalle{
-    background-color: #e3edf2;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-
-    flex-basis: 280px;
-    max-width: 300px;
-    flex-grow: 1;
-
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, .20);
-
-}
-
-
-#clientes .detalle h5{
-    padding: 5px;
-
-    font-style: bold;
-    text-align: center;
-}
-
-#clientes .detalle p{
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px;
-
+    margin: 0 30px;
+    padding: 30px;
     text-align: justify;
-
-
-    font-style: bold;
-    font-style: italic
+    margin-top: 30px;
 }
-
-
-#clientes .detalle footer{
-    display: flex;
-    justify-content: flex-end;    
-}
-
-
 
 
 /*contacto*/
@@ -685,12 +497,9 @@ align-items: center;
 
 
 #contacto h2{
-    margin-bottom: 20px;
-    margin-left: 50px;
-
-    font-weight: bold;
-    font-style: oblique;
+    margin: 50px 0 30px 50px;
     color: #555658;
+    font-weight: 800;
 }
 
 #contacto .fotoperfil {
