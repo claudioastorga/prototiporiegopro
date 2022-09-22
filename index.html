@@ -50,7 +50,7 @@
     <ul class="navbar-nav ms-auto categorias">
 
         <li class="nav-item">
-        <a class="nav-link active" href="#carouselExampleDark">Inicio</a></li>
+        <a class="nav-link active" href="#carouselExampleCaptions">Inicio</a></li>
 
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#servicios" id="navbarDropdown" role="button" 
@@ -66,14 +66,14 @@
           </li>
 
         <li class="nav-item">
-        <a class="nav-link active" href="#nosotros">Metodología</a></li>
+        <a class="nav-link active" href="#metodo">Metodología</a></li>
 
         <li class="nav-item">
-        <a class="nav-link active" href="#vinculos">Clientes</a></li>
+        <a class="nav-link active" href="#clientes">Clientes</a></li>
 
 
         <li class="nav-item">
-        <a class="nav-link active" href="#noticias">Contacto</a></li>
+        <a class="nav-link active" href="#contacto">Contacto</a></li>
 
     
 
@@ -94,46 +94,48 @@
 
 
 <!-- prueba carrusel-->
-<div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-       <div class="fotocarrusel1">  <img src="..." class="d-block w-100" alt="..."> </div> 
-        <div class="carousel-caption  d-md-block">
-          <h1 class="textocarrusel">Programación de Riego Agrícola</h1>
-          <p class="d-none d-md-block">Servicio de Progra de Riego</p>
-        </div>
-      
-    </div>
-
-      <div class="carousel-item">
-        <div class="fotocarrusel2">  <img src="..." class="d-block w-100" alt="..."> </div> 
-        <div class="carousel-caption d-md-block">
-          <h1 class="textocarrusel">Servicio de Fertiriego</h1>
-          <p class="d-none d-md-block">Servicio de Fertiriego</p>
+      <div class=" carousel-item active">
+        <img src="..." class="fotocarrusel1 d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Programación de Riego Agrícola</h4>
+          <p>Servicio de Programación de Riego.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="fotocarrusel3">  <img src="..." class="d-block w-100" alt="..."> </div> 
-        <div class="carousel-caption d-md-block">
-          <h1 class="textocarrusel">Servicio de Capacitación</h1>
-          <p class="d-none d-md-block">Servicio de Capacitación</p>
+        <img src="..." class="fotocarrusel2 d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Programación de Riego Agrícola</h4>
+          <p>Servicio de Fertiriego.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="fotocarrusel3  d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Programación de Riego Agrícola</h4>
+          <p>Servicio de Capacitación.</p>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+
+
 
 
 <!-- fin carrusel -->
@@ -171,11 +173,10 @@
             </h6>
             
             <footer class="color">
-            <button class="boton" href="# ">Contacto</button>
+            <a class="boton" href="#contacto" role="button">Contacto</a>
             </footer>
         </article>
     </div>
-
 
     <div id="servicio2" class="servicio2">
             <div class="foto2"></div>
@@ -185,7 +186,7 @@
                 <h6>Este servicio consiste en elaborar y supervisar programas de fertirrigación en frutales y vides con microriego, con el objetivo de adecuar el riego y fertilización a las condiciones particulares de cada suelo, calidad de agua y producción del cultivo. Entregando un programa basado en la composición química del suelo, del agua y los requerimientos nutricionales del cultivo.
                 </h6>
                 <footer class="color">
-                    <button class="boton">Contacto</button>
+                    <button class="boton" href="#contacto">Contacto</button>
                     </footer>
             
             </article>
@@ -201,7 +202,7 @@
                 <h6>El objetivo de este servicio es transferir los conocimientos y técnicas que permitan mejorar el manejo hídrico del predio, de manera que el personal encargado tenga el entrenamiento necesario para realizar esta labor eficientemente.
                 </h6>
                 <footer class="color">
-                    <button class="boton">Contacto</button>
+                    <button class="boton" href="#contacto">Contacto</button>
                     </footer>
             
             </article>

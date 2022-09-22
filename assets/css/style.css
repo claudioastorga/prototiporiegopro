@@ -43,7 +43,7 @@ color: #1E88E5;
 }
 
 /* carrusel*/
-#carouselExampleDark{
+#carouselExampleCaptions{
  
     width: 90%;
     margin: 0 auto;
@@ -55,8 +55,8 @@ color: #1E88E5;
 }
 
 
-#carouselExampleDark .fotocarrusel1{
-    background-image: url(../img/riego_home.jpg);
+#carouselExampleCaptions .fotocarrusel1{
+    background-image: url(../img/c2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -79,8 +79,8 @@ color: #1E88E5;
 
 
 
-#carouselExampleDark .fotocarrusel2{
-    background-image: url(../img/riego2.jpg);
+#carouselExampleCaptions .fotocarrusel2{
+    background-image: url(../img/c3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,11 +99,11 @@ color: #1E88E5;
     min-height: 350px;
 
 }
-#carouselExampleDark .fotocarrusel3{
-    background-image: url(../img/riego3.jpg);
+#carouselExampleCaptions .fotocarrusel3{
+    background-image: url(../img/c1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
 
     border-radius: 10px;
 
@@ -121,7 +121,7 @@ color: #1E88E5;
 }
 
 
-#carouselExampleDark .textocarrusel{
+#carouselExampleCaptions .carousel-caption{
     font-style: oblique;
     color: white;
     text-shadow: 2px 2px 2px #555658;
@@ -129,7 +129,7 @@ color: #1E88E5;
     font-weight: 600;
 
 }
-#carouselExampleDark p{
+#carouselExampleCaptions p{
     font-style: oblique;
     color: white;
     text-shadow: 2px 2px 2px #555658;
@@ -249,7 +249,7 @@ font-style: italic;
     }
     
     #servicios .foto1 {
-        background-image: url(../img/riego_1.jpg);
+        background-image: url(../img/riego3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -299,6 +299,8 @@ font-style: italic;
         transition: .3s ease all;
         font-weight: bold;
         margin-top: 15px;
+        text-decoration: none;
+
     }
     
      #servicios .color  :hover{
@@ -324,13 +326,13 @@ font-style: italic;
     
         margin: 30px 0;
     
-        background-color: #e3edf2;
+        background-color: #CDDBFF;
         border-radius: 10px;
     
     }
 
     #servicios .foto2 {
-        background-image: url(../img/riego2.jpg);
+        background-image: url(../img/c3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -356,12 +358,12 @@ font-style: italic;
     
         margin: 30px 0;
     
-        background-color: #e3edf2;
+        background-color: #CDDBFF;
         border-radius: 10px;
     }
     
     #servicios .foto3{
-        background-image: url(../img/riego3.jpg);
+        background-image: url(../img/riego2.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
