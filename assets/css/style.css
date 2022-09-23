@@ -409,17 +409,20 @@ filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, .25));
     overflow: hidden;
     position: relative;
     width: auto;
+    gap: 30px;
 }
 .slider .slide-track{
-    animation: scroll 40s linear infinite;
+    animation: scroll 50s linear infinite;
     display: flex;
-    width: calc(250px * 7 );
+    width: calc(250px * 6 );
     margin-top: 30px;
+    justify-content: space-between;
 
 }
 .slider .slide{
     height: 100px;
     width: 250px;
+    align-items: center;
 }
 
 #clientes{
@@ -459,7 +462,6 @@ font-weight: 800;
 
 #contacto {
     
-    background-color:#CDDBFF;
     width: 90%;
     margin: 0 auto;
     padding: 30px  ;
@@ -475,15 +477,17 @@ font-weight: 800;
 
 #contacto .datoscontacto {
 
+    background-color:#CDDBFF;
 
     margin: auto 0;
-    padding: 10px 0 30px 0;
+    padding: 30px 0 30px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 20px;
+    border-radius: 15px;
 
 }
 
